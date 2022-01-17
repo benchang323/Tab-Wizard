@@ -3,11 +3,19 @@
 }
 
 body {
-    width: 100px;
-    padding: 10px;
-
+    width: 400px;
+    padding: 400px;
+    font-size: 16px;
     font-family: system-ui;
+}
+
+h1, form {
     text-align: center;
+}
+
+table-footer-group{
+    font-size: 5px;
+    text-align: left;
 }
 
 @media (prefers-color-scheme: dark) {
