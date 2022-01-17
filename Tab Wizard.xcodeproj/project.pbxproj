@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		434667FB27951482007A2C72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434667FA27951482007A2C72 /* AppDelegate.swift */; };
+		434667FF27951482007A2C72 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 434667FD27951482007A2C72 /* Main.html */; };
+		4346680127951482007A2C72 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4346680027951482007A2C72 /* Icon.png */; };
+		4346680327951482007A2C72 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 4346680227951482007A2C72 /* Style.css */; };
+		4346680527951482007A2C72 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 4346680427951482007A2C72 /* Script.js */; };
+		4346680727951482007A2C72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4346680627951482007A2C72 /* ViewController.swift */; };
+		4346680A27951482007A2C72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4346680827951482007A2C72 /* Main.storyboard */; };
+		4346680C27951482007A2C72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4346680B27951482007A2C72 /* Assets.xcassets */; };
+		4346681827951482007A2C72 /* Tab_WizardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4346681727951482007A2C72 /* Tab_WizardTests.swift */; };
+		4346682227951482007A2C72 /* Tab_WizardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4346682127951482007A2C72 /* Tab_WizardUITests.swift */; };
+		4346682427951482007A2C72 /* Tab_WizardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4346682327951482007A2C72 /* Tab_WizardUITestsLaunchTests.swift */; };
+		4346682A27951482007A2C72 /* Tab Wizard Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4346682927951482007A2C72 /* Tab Wizard Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4346682F27951482007A2C72 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4346682E27951482007A2C72 /* SafariWebExtensionHandler.swift */; };
+		4346683227951482007A2C72 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 4346683127951482007A2C72 /* _locales */; };
+		4346683427951482007A2C72 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 4346683327951482007A2C72 /* images */; };
+		4346683627951482007A2C72 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4346683527951482007A2C72 /* manifest.json */; };
+		4346683827951482007A2C72 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 4346683727951482007A2C72 /* background.js */; };
+		4346683A27951482007A2C72 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 4346683927951482007A2C72 /* content.js */; };
+		4346683C27951482007A2C72 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 4346683B27951482007A2C72 /* popup.html */; };
+		4346683E27951482007A2C72 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 4346683D27951482007A2C72 /* popup.css */; };
+		4346684027951482007A2C72 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 4346683F27951482007A2C72 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4346681427951482007A2C72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 434667EF27951482007A2C72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434667F627951482007A2C72;
+			remoteInfo = "Tab Wizard";
+		};
+		4346681E27951482007A2C72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 434667EF27951482007A2C72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434667F627951482007A2C72;
+			remoteInfo = "Tab Wizard";
+		};
+		4346682B27951482007A2C72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 434667EF27951482007A2C72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4346682827951482007A2C72;
+			remoteInfo = "Tab Wizard Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4346684827951482007A2C72 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4346682A27951482007A2C72 /* Tab Wizard Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		434667F727951482007A2C72 /* Tab Wizard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tab Wizard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		434667FA27951482007A2C72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		434667FE27951482007A2C72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		4346680027951482007A2C72 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4346680227951482007A2C72 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		4346680427951482007A2C72 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		4346680627951482007A2C72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4346680927951482007A2C72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4346680B27951482007A2C72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4346680D27951482007A2C72 /* Tab_Wizard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tab_Wizard.entitlements; sourceTree = "<group>"; };
+		4346680E27951482007A2C72 /* Tab Wizard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Tab Wizard.entitlements"; sourceTree = "<group>"; };
+		4346681327951482007A2C72 /* Tab WizardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tab WizardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4346681727951482007A2C72 /* Tab_WizardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab_WizardTests.swift; sourceTree = "<group>"; };
+		4346681D27951482007A2C72 /* Tab WizardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tab WizardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4346682127951482007A2C72 /* Tab_WizardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab_WizardUITests.swift; sourceTree = "<group>"; };
+		4346682327951482007A2C72 /* Tab_WizardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab_WizardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4346682927951482007A2C72 /* Tab Wizard Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Tab Wizard Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4346682E27951482007A2C72 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		4346683127951482007A2C72 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		4346683327951482007A2C72 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		4346683527951482007A2C72 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		4346683727951482007A2C72 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		4346683927951482007A2C72 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		4346683B27951482007A2C72 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		4346683D27951482007A2C72 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		4346683F27951482007A2C72 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		4346684127951482007A2C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4346684227951482007A2C72 /* Tab_Wizard_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tab_Wizard_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		434667F427951482007A2C72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4346681027951482007A2C72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4346681A27951482007A2C72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4346682627951482007A2C72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		434667EE27951482007A2C72 = {
+			isa = PBXGroup;
+			children = (
+				434667F927951482007A2C72 /* Tab Wizard */,
+				4346681627951482007A2C72 /* Tab WizardTests */,
+				4346682027951482007A2C72 /* Tab WizardUITests */,
+				4346682D27951482007A2C72 /* Tab Wizard Extension */,
+				434667F827951482007A2C72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		434667F827951482007A2C72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				434667F727951482007A2C72 /* Tab Wizard.app */,
+				4346681327951482007A2C72 /* Tab WizardTests.xctest */,
+				4346681D27951482007A2C72 /* Tab WizardUITests.xctest */,
+				4346682927951482007A2C72 /* Tab Wizard Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		434667F927951482007A2C72 /* Tab Wizard */ = {
+			isa = PBXGroup;
+			children = (
+				434667FA27951482007A2C72 /* AppDelegate.swift */,
+				4346680627951482007A2C72 /* ViewController.swift */,
+				4346680827951482007A2C72 /* Main.storyboard */,
+				4346680B27951482007A2C72 /* Assets.xcassets */,
+				4346680D27951482007A2C72 /* Tab_Wizard.entitlements */,
+				4346680E27951482007A2C72 /* Tab Wizard.entitlements */,
+				434667FC27951482007A2C72 /* Resources */,
+			);
+			path = "Tab Wizard";
+			sourceTree = "<group>";
+		};
+		434667FC27951482007A2C72 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				434667FD27951482007A2C72 /* Main.html */,
+				4346680027951482007A2C72 /* Icon.png */,
+				4346680227951482007A2C72 /* Style.css */,
+				4346680427951482007A2C72 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4346681627951482007A2C72 /* Tab WizardTests */ = {
+			isa = PBXGroup;
+			children = (
+				4346681727951482007A2C72 /* Tab_WizardTests.swift */,
+			);
+			path = "Tab WizardTests";
+			sourceTree = "<group>";
+		};
+		4346682027951482007A2C72 /* Tab WizardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4346682127951482007A2C72 /* Tab_WizardUITests.swift */,
+				4346682327951482007A2C72 /* Tab_WizardUITestsLaunchTests.swift */,
+			);
+			path = "Tab WizardUITests";
+			sourceTree = "<group>";
+		};
+		4346682D27951482007A2C72 /* Tab Wizard Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4346682E27951482007A2C72 /* SafariWebExtensionHandler.swift */,
+				4346684127951482007A2C72 /* Info.plist */,
+				4346684227951482007A2C72 /* Tab_Wizard_Extension.entitlements */,
+				4346683027951482007A2C72 /* Resources */,
+			);
+			path = "Tab Wizard Extension";
+			sourceTree = "<group>";
+		};
+		4346683027951482007A2C72 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4346683127951482007A2C72 /* _locales */,
+				4346683327951482007A2C72 /* images */,
+				4346683527951482007A2C72 /* manifest.json */,
+				4346683727951482007A2C72 /* background.js */,
+				4346683927951482007A2C72 /* content.js */,
+				4346683B27951482007A2C72 /* popup.html */,
+				4346683D27951482007A2C72 /* popup.css */,
+				4346683F27951482007A2C72 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		434667F627951482007A2C72 /* Tab Wizard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4346684927951482007A2C72 /* Build configuration list for PBXNativeTarget "Tab Wizard" */;
+			buildPhases = (
+				434667F327951482007A2C72 /* Sources */,
+				434667F427951482007A2C72 /* Frameworks */,
+				434667F527951482007A2C72 /* Resources */,
+				4346684827951482007A2C72 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4346682C27951482007A2C72 /* PBXTargetDependency */,
+			);
+			name = "Tab Wizard";
+			productName = "Tab Wizard";
+			productReference = 434667F727951482007A2C72 /* Tab Wizard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4346681227951482007A2C72 /* Tab WizardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4346684C27951482007A2C72 /* Build configuration list for PBXNativeTarget "Tab WizardTests" */;
+			buildPhases = (
+				4346680F27951482007A2C72 /* Sources */,
+				4346681027951482007A2C72 /* Frameworks */,
+				4346681127951482007A2C72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4346681527951482007A2C72 /* PBXTargetDependency */,
+			);
+			name = "Tab WizardTests";
+			productName = "Tab WizardTests";
+			productReference = 4346681327951482007A2C72 /* Tab WizardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4346681C27951482007A2C72 /* Tab WizardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4346684F27951482007A2C72 /* Build configuration list for PBXNativeTarget "Tab WizardUITests" */;
+			buildPhases = (
+				4346681927951482007A2C72 /* Sources */,
+				4346681A27951482007A2C72 /* Frameworks */,
+				4346681B27951482007A2C72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4346681F27951482007A2C72 /* PBXTargetDependency */,
+			);
+			name = "Tab WizardUITests";
+			productName = "Tab WizardUITests";
+			productReference = 4346681D27951482007A2C72 /* Tab WizardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4346682827951482007A2C72 /* Tab Wizard Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4346684527951482007A2C72 /* Build configuration list for PBXNativeTarget "Tab Wizard Extension" */;
+			buildPhases = (
+				4346682527951482007A2C72 /* Sources */,
+				4346682627951482007A2C72 /* Frameworks */,
+				4346682727951482007A2C72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tab Wizard Extension";
+			productName = "Tab Wizard Extension";
+			productReference = 4346682927951482007A2C72 /* Tab Wizard Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		434667EF27951482007A2C72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					434667F627951482007A2C72 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4346681227951482007A2C72 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 434667F627951482007A2C72;
+					};
+					4346681C27951482007A2C72 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 434667F627951482007A2C72;
+					};
+					4346682827951482007A2C72 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 434667F227951482007A2C72 /* Build configuration list for PBXProject "Tab Wizard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 434667EE27951482007A2C72;
+			productRefGroup = 434667F827951482007A2C72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				434667F627951482007A2C72 /* Tab Wizard */,
+				4346681227951482007A2C72 /* Tab WizardTests */,
+				4346681C27951482007A2C72 /* Tab WizardUITests */,
+				4346682827951482007A2C72 /* Tab Wizard Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		434667F527951482007A2C72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4346680127951482007A2C72 /* Icon.png in Resources */,
+				4346680A27951482007A2C72 /* Main.storyboard in Resources */,
+				4346680527951482007A2C72 /* Script.js in Resources */,
+				434667FF27951482007A2C72 /* Main.html in Resources */,
+				4346680C27951482007A2C72 /* Assets.xcassets in Resources */,
+				4346680327951482007A2C72 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4346681127951482007A2C72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4346681B27951482007A2C72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4346682727951482007A2C72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4346683827951482007A2C72 /* background.js in Resources */,
+				4346683E27951482007A2C72 /* popup.css in Resources */,
+				4346683C27951482007A2C72 /* popup.html in Resources */,
+				4346683427951482007A2C72 /* images in Resources */,
+				4346683627951482007A2C72 /* manifest.json in Resources */,
+				4346683227951482007A2C72 /* _locales in Resources */,
+				4346683A27951482007A2C72 /* content.js in Resources */,
+				4346684027951482007A2C72 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		434667F327951482007A2C72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4346680727951482007A2C72 /* ViewController.swift in Sources */,
+				434667FB27951482007A2C72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4346680F27951482007A2C72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4346681827951482007A2C72 /* Tab_WizardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4346681927951482007A2C72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4346682227951482007A2C72 /* Tab_WizardUITests.swift in Sources */,
+				4346682427951482007A2C72 /* Tab_WizardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4346682527951482007A2C72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4346682F27951482007A2C72 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4346681527951482007A2C72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 434667F627951482007A2C72 /* Tab Wizard */;
+			targetProxy = 4346681427951482007A2C72 /* PBXContainerItemProxy */;
+		};
+		4346681F27951482007A2C72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 434667F627951482007A2C72 /* Tab Wizard */;
+			targetProxy = 4346681E27951482007A2C72 /* PBXContainerItemProxy */;
+		};
+		4346682C27951482007A2C72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4346682827951482007A2C72 /* Tab Wizard Extension */;
+			targetProxy = 4346682B27951482007A2C72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		434667FD27951482007A2C72 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				434667FE27951482007A2C72 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		4346680827951482007A2C72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4346680927951482007A2C72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4346684327951482007A2C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4346684427951482007A2C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4346684627951482007A2C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Tab Wizard Extension/Tab_Wizard_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMNPQ37R2W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tab Wizard Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tab Wizard Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "benjamin.Tab-Wizard.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4346684727951482007A2C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Tab Wizard Extension/Tab_Wizard_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMNPQ37R2W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tab Wizard Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tab Wizard Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "benjamin.Tab-Wizard.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4346684A27951482007A2C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Tab Wizard/Tab Wizard.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMNPQ37R2W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tab Wizard";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "benjamin.Tab-Wizard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4346684B27951482007A2C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Tab Wizard/Tab Wizard.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMNPQ37R2W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tab Wizard";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "benjamin.Tab-Wizard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4346684D27951482007A2C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMNPQ37R2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "benjamin.Tab-WizardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tab Wizard.app/Contents/MacOS/Tab Wizard";
+			};
+			name = Debug;
+		};
+		4346684E27951482007A2C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMNPQ37R2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "benjamin.Tab-WizardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tab Wizard.app/Contents/MacOS/Tab Wizard";
+			};
+			name = Release;
+		};
+		4346685027951482007A2C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMNPQ37R2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "benjamin.Tab-WizardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Tab Wizard";
+			};
+			name = Debug;
+		};
+		4346685127951482007A2C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMNPQ37R2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "benjamin.Tab-WizardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Tab Wizard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		434667F227951482007A2C72 /* Build configuration list for PBXProject "Tab Wizard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4346684327951482007A2C72 /* Debug */,
+				4346684427951482007A2C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4346684527951482007A2C72 /* Build configuration list for PBXNativeTarget "Tab Wizard Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4346684627951482007A2C72 /* Debug */,
+				4346684727951482007A2C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4346684927951482007A2C72 /* Build configuration list for PBXNativeTarget "Tab Wizard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4346684A27951482007A2C72 /* Debug */,
+				4346684B27951482007A2C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4346684C27951482007A2C72 /* Build configuration list for PBXNativeTarget "Tab WizardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4346684D27951482007A2C72 /* Debug */,
+				4346684E27951482007A2C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4346684F27951482007A2C72 /* Build configuration list for PBXNativeTarget "Tab WizardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4346685027951482007A2C72 /* Debug */,
+				4346685127951482007A2C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 434667EF27951482007A2C72 /* Project object */;
+}
