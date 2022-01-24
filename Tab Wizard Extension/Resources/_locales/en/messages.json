@@ -5,6 +5,6 @@
     },
     "extension_description": {
         "message": "This is Tab Wizard Extension. You should tell us what your extension does here.",
-        "description": "Description of what the extension does."
+        "description": "This extension suspends unused tabs to save memory and save all tabs for storage."
     }
 }
